@@ -1,11 +1,11 @@
 import "./styles.css";
-
-function App() {
-  return (
-    <div className="App">
-      <h1 className="App">Counter</h1>
-      <h2 className="value">{}</h2> asflsd
-    </div>
-  );
+class App {
+  render() {
+    return (
+      <div className="App">
+        <h1 className="App">Counter</h1>
+      </div>
+    );
+  }
 }
 export default App;
